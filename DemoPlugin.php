@@ -13,7 +13,7 @@
 
 
 if ( ! defined( 'ABSPATH' ) ) {
-	die( 'Invalid request.' );
+	die( 'Hey , you can not access  this file dud ' );
 }
 
 ?>
