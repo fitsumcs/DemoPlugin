@@ -1,3 +1,3 @@
 ## DemoPlugin
 
-### This is Done for Learning Purpose
+### This is Done for demo Purpose
