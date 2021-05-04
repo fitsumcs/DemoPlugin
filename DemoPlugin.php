@@ -25,18 +25,21 @@ if ( ! defined( 'ABSPATH' ) ) {
 // The Plugin class 
 class DemoPlugin{
 
-function activate()
-{
-
-}
-function deactivate()
-{
-
-}
-function uninstall()
-{
-
-}
+    function activate()
+    {
+    // Register custom PT
+    // Flush 
+    }
+    
+    function deactivate()
+    {
+    // Flush 
+    }
+    
+    function uninstall()
+    {
+    //delete CP , delete tables on DB
+    }
 
      
 
