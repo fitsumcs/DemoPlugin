@@ -13,7 +13,11 @@
 
 
 if ( ! defined( 'ABSPATH' ) ) {
-	die( 'Hey , you can not access  this file dud ' );
+	die( 'Hey , you can not access  this file silly human ' );
 }
 
+// other way 
+// defined( 'ABSPATH' ) or 	die( 'Hey , you can not access  this file dud ' );
+//other way ...
+// if (function_exists('add_action')){ echo "You can not access this file";}
 ?>
