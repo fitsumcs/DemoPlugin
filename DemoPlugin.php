@@ -18,6 +18,62 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // other way 
 // defined( 'ABSPATH' ) or 	die( 'Hey , you can not access  this file dud ' );
+
 //other way ...
 // if (function_exists('add_action')){ echo "You can not access this file";}
+
+// The Plugin class 
+class DemoPlugin{
+
+function activate()
+{
+
+}
+function deactivate()
+{
+
+}
+function uninstall()
+{
+
+}
+
+     
+
+ 
+
+
+
+}
+if(class_exists('DemoPlugin'))
+{
+    $demoplugin = new DemoPlugin();
+}
+
+// Registering Activation 
+register_activation_hook(__FILE__, array( $demoplugin,'activate'));
+
+// Registering De Activation 
+register_deactivation_hook(__FILE__, array( $demoplugin,'deactivate'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ?>
