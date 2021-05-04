@@ -10,4 +10,10 @@
 * License: GPL2
 */
 
+
+
+if ( ! defined( 'ABSPATH' ) ) {
+	die( 'Invalid request.' );
+}
+
 ?>
